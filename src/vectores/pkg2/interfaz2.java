@@ -237,8 +237,11 @@ public class interfaz2 extends javax.swing.JFrame {
              else{
                      contI=contI+1;
              }
-               if (v[i]%2>0){
+               if (v[i]%2!=0 || v[i]==2){
                     cotP++;
+               
+                       
+                    
                     }
              }
                res1 = String.valueOf(contador);
